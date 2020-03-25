@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+<!--
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/etFirstNumId"
+        android:hint="Enter 1st Number "
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/etSecondNumId"
+        android:hint="Enter 2nd Number "
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        />
+   <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Show REsult"
+         android:layout_gravity="center"
+         android:background="#1030E0"
+         android:textColor="#fff"
+         android:layout_marginTop="10dp"
+         android:id="@+id/btShowResultId"
+         />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvbestbowlingid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
